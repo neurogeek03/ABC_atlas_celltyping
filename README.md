@@ -16,3 +16,7 @@ Using the subsetted taxonomy, we can assign more biologically informed cell type
 
 ## Overview of how the algorithm works: 
 <img width="2547" height="1597" alt="image" src="https://github.com/user-attachments/assets/b657ed64-7ccb-458e-a944-3aabd8b74896" />
+
+Starting from the root node of the taxonomy tree, each unknown cell's gene expression (GEX) is compared to every node until we traverse fully through the tree and reach a leaf. 
+
+At each node, the comparison of GEX to the marker gene list is repeated 100 times, while a random 10% of marker genes is hidden at each iteration.
