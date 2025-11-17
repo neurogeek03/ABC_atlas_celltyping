@@ -15,3 +15,4 @@ This subsets the reference taxonomy tree to cell types found in the brain region
 Using the subsetted taxonomy, we can assign more biologically informed cell types. 
 
 ## Overview of how the algorithm works: 
+<img width="2547" height="1597" alt="image" src="https://github.com/user-attachments/assets/b657ed64-7ccb-458e-a944-3aabd8b74896" />
